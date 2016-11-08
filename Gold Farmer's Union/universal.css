@@ -1,0 +1,37 @@
+body {
+    background-image: url("elm_board.jpg"); 
+}
+.unselectable {
+   
+    -moz-user-select: none; /* These user-select properties are inheritable, used to prevent text selection */
+    -webkit-user-select: none;
+    -ms-user-select: none; /* From IE10 only */
+    user-select: none; /* Not valid CSS yet, as of July 2012 */
+
+    -webkit-user-drag: none; /* Prevents dragging of images/divs etc */
+    user-drag: none;
+    draggable:false;
+}
+
+#fb {position:absolute; width:5%; right:1%;}
+#t {position:absolute; width:5%; right:7%;}
+
+#head {background-color:#808000; left:0%; right:0%; top:0%; position:absolute; 
+	z-index:5; padding:0%; margin:0%; }
+#name {height:50%; position:absolute; top:25%; left:5%; }
+
+#subhead {background-color:black; position:absolute; right:0%; left:0%; z-index:5;}
+.sub {color:white; font-family:arial black; -webkit-transition: color .5s; 
+transition: color .2s; position:absolute; }
+
+#homesub {left:5%;  }
+#aboutsub { left:17%; }
+#buysub { left:45%; }
+#sellsub { left:55%;}
+#accountsub { left:85%; }
+.sub:hover {color:#808000;}
+
+#center {background-color:white; width: 60%; left:20%; position:absolute;
+border-radius: 10px; z-index:-1; top:0px; padding:2%;}
+
+.welcome {font-family:Arial; color:#808000; text-align:center}

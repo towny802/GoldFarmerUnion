@@ -1,0 +1,21 @@
+#options {position:relative; width:70%; background-color:#E6E6E6; opacity:1%;
+border-radius: 10px; left:15%; text-align:center; padding:1%;}
+
+.accountoptions {background-color:white; position:relative; border-radius:4px;
+border-width:1px; border-color:grey; display:inline-block; padding:3px; padding-left:1%;
+padding-right:1%; font-family:arial black; margin:5%; text-decoration:none; color:olive;
+
+-webkit-transition: color .5s;
+transition: color .5s;
+-webkit-transition: background-color .5s;
+transition: background-color .5s;
+}
+
+.accountoptions:hover {background-color:olive; color:white;}
+
+#login {}
+#create {}
+
+#form {position:relative; width:70%; left:15%; padding:1%; font-family:Helvetica; color:black;}
+
+#detail {font-family:Arial black; color:olive; line-height:0%;}

@@ -1,0 +1,7 @@
+#aboutbox { position:fixed; background-color:beige; padding: 1%;
+border-color:black; border-width: 2px; border-style:solid;  }
+
+.info {font-family:Arial; color:#808000; text-decoration: none;}
+.details {font-family:Helvetica;}
+
+#aboutcontainer {padding:2%; height:100%; position:relative; z-index:6; overflow:auto;}
